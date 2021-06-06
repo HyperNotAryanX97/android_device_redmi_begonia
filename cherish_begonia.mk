@@ -27,14 +27,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := potato_begonia
+PRODUCT_NAME := cherish_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+CHERISH_BUILD_TYPE := OFFICIAL
+
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=HyperNotAryanX97
 
 BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys"
 
