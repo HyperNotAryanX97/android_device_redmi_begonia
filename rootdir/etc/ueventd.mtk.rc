@@ -57,15 +57,15 @@
 /dev/fm                   0660   media     media
 
 # NFC
-/dev/msr3110              0666   root       root
-/dev/mt6605               0660   nfc        radio
 /dev/st21nfc              0660   nfc        radio
+/dev/st54spi              0660   secure_element        secure_element
 
 # MTK BTIF driver
 /dev/btif                 0600   system     system
 
 # Trusty driver
 /dev/trusty-ipc-dev0      0660   system     system
+/dev/nebula-ipc-dev0      0660   system     system
 
 # RPMB (for Trusty)
 /dev/block/mmcblk0rpmb    0660   root       system
@@ -141,8 +141,8 @@
 /dev/hotknot              0660   root       system
 
 #hang_detect
-/dev/RT_Monitor           0600   system     system
-/dev/kick_powerkey        0600   system     system
+/dev/RT_Monitor           0660   system     system
+/dev/kick_powerkey        0660   system     system
 
 #MTK In-House TEE
 /dev/ttyACM0              0660   radio      radio

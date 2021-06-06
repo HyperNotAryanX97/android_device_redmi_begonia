@@ -436,3 +436,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Arch
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bionic.arch=arm64 \
+    ro.bionic.cpu_variant=cortex-a53 \
+    ro.bionic.2nd_arch=arm \
+    ro.bionic.2nd_cpu_variant=cortex-a53
+
+# Dalvik
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.dalvik.vm.lib.2=libart.so \
+    dalvik.vm.isa.arm64.variant=cortex-a53 \
+    dalvik.vm.isa.arm64.features=default \
+    dalvik.vm.isa.arm.variant=cortex-a53 \
+    dalvik.vm.isa.arm.features=default
