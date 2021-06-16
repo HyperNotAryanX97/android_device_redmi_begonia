@@ -79,6 +79,7 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/dtbo.mk
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := device/redmi/begonia/prebuilt/dtbo.img
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := begonia
