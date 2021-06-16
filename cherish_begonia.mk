@@ -40,7 +40,7 @@ CHERISH_BUILD_TYPE := OFFICIAL
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=HyperNotAryanX97
 
-BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="begonia-user 10 QP1A.190711.020 V12.0.7.0.QGGMIXM release-keys" \
