@@ -35,6 +35,10 @@ PRODUCT_NAME := cherish_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+CHERISH_BUILD_TYPE := OFFICIAL
+
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=HyperNotAryanX97
 
 BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ3A.210805.001.A1/7474174:user/release-keys"
 
