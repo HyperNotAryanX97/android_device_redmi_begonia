@@ -36,6 +36,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 CHERISH_BUILD_TYPE := OFFICIAL
+WITH_GMS := true
 
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=HyperNotAryanX97
